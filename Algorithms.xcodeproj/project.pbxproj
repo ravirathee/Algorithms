@@ -7,7 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		28FAF4AF246AD48100FCCA78 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 28FAF4AE246AD48100FCCA78 /* main.cpp */; };
+		28FAF4AF246AD48100FCCA78 /* startingFile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 28FAF4AE246AD48100FCCA78 /* startingFile.cpp */; };
+		28FAF4D8246AD78B00FCCA78 /* 7 Aggressive cows.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 28FAF4CB246AD78B00FCCA78 /* 7 Aggressive cows.cpp */; };
+		28FAF4D9246AD78B00FCCA78 /* 5.2 Exponentiation using BS.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 28FAF4CC246AD78B00FCCA78 /* 5.2 Exponentiation using BS.cpp */; };
+		28FAF4DA246AD78B00FCCA78 /* 8 BOOKS1 - Copying Books.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 28FAF4CD246AD78B00FCCA78 /* 8 BOOKS1 - Copying Books.cpp */; };
+		28FAF4DB246AD78B00FCCA78 /* 0.2 UpperLowerBound.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 28FAF4CE246AD78B00FCCA78 /* 0.2 UpperLowerBound.cpp */; };
+		28FAF4DC246AD78B00FCCA78 /* 1 PivotElement.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 28FAF4CF246AD78B00FCCA78 /* 1 PivotElement.cpp */; };
+		28FAF4DD246AD78B00FCCA78 /* 4 Rotation Count in Rotated Sorted array.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 28FAF4D0246AD78B00FCCA78 /* 4 Rotation Count in Rotated Sorted array.cpp */; };
+		28FAF4DE246AD78B00FCCA78 /* 5 Count elements <= X in a rotated array.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 28FAF4D1246AD78B00FCCA78 /* 5 Count elements <= X in a rotated array.cpp */; };
+		28FAF4DF246AD78B00FCCA78 /* 2 Search in a Rotated Array.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 28FAF4D2246AD78B00FCCA78 /* 2 Search in a Rotated Array.cpp */; };
+		28FAF4E0246AD78B00FCCA78 /* 3 Search in a Rotated Array w duplicates.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 28FAF4D3246AD78B00FCCA78 /* 3 Search in a Rotated Array w duplicates.cpp */; };
+		28FAF4E1246AD78B00FCCA78 /* 0.1 binarySearch.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 28FAF4D4246AD78B00FCCA78 /* 0.1 binarySearch.cpp */; };
+		28FAF4E2246AD78B00FCCA78 /* 0.3 STL UpperLowerBound.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 28FAF4D5246AD78B00FCCA78 /* 0.3 STL UpperLowerBound.cpp */; };
+		28FAF4E3246AD78B00FCCA78 /* 6 Bishu And Soldiers.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 28FAF4D6246AD78B00FCCA78 /* 6 Bishu And Soldiers.cpp */; };
+		28FAF4E4246AD78B00FCCA78 /* 5.1 Square Root using BS.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 28FAF4D7246AD78B00FCCA78 /* 5.1 Square Root using BS.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -20,15 +33,45 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		28FAF4C2246AD6F000FCCA78 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		28FAF4AB246AD48100FCCA78 /* Algorithms */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Algorithms; sourceTree = BUILT_PRODUCTS_DIR; };
-		28FAF4AE246AD48100FCCA78 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		28FAF4AE246AD48100FCCA78 /* startingFile.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = startingFile.cpp; sourceTree = "<group>"; };
+		28FAF4C4246AD6F000FCCA78 /* Binary Search */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Binary Search"; sourceTree = BUILT_PRODUCTS_DIR; };
+		28FAF4CB246AD78B00FCCA78 /* 7 Aggressive cows.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "7 Aggressive cows.cpp"; sourceTree = "<group>"; };
+		28FAF4CC246AD78B00FCCA78 /* 5.2 Exponentiation using BS.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "5.2 Exponentiation using BS.cpp"; sourceTree = "<group>"; };
+		28FAF4CD246AD78B00FCCA78 /* 8 BOOKS1 - Copying Books.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "8 BOOKS1 - Copying Books.cpp"; sourceTree = "<group>"; };
+		28FAF4CE246AD78B00FCCA78 /* 0.2 UpperLowerBound.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "0.2 UpperLowerBound.cpp"; sourceTree = "<group>"; };
+		28FAF4CF246AD78B00FCCA78 /* 1 PivotElement.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "1 PivotElement.cpp"; sourceTree = "<group>"; };
+		28FAF4D0246AD78B00FCCA78 /* 4 Rotation Count in Rotated Sorted array.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "4 Rotation Count in Rotated Sorted array.cpp"; sourceTree = "<group>"; };
+		28FAF4D1246AD78B00FCCA78 /* 5 Count elements <= X in a rotated array.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "5 Count elements <= X in a rotated array.cpp"; sourceTree = "<group>"; };
+		28FAF4D2246AD78B00FCCA78 /* 2 Search in a Rotated Array.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "2 Search in a Rotated Array.cpp"; sourceTree = "<group>"; };
+		28FAF4D3246AD78B00FCCA78 /* 3 Search in a Rotated Array w duplicates.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "3 Search in a Rotated Array w duplicates.cpp"; sourceTree = "<group>"; };
+		28FAF4D4246AD78B00FCCA78 /* 0.1 binarySearch.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "0.1 binarySearch.cpp"; sourceTree = "<group>"; };
+		28FAF4D5246AD78B00FCCA78 /* 0.3 STL UpperLowerBound.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "0.3 STL UpperLowerBound.cpp"; sourceTree = "<group>"; };
+		28FAF4D6246AD78B00FCCA78 /* 6 Bishu And Soldiers.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "6 Bishu And Soldiers.cpp"; sourceTree = "<group>"; };
+		28FAF4D7246AD78B00FCCA78 /* 5.1 Square Root using BS.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "5.1 Square Root using BS.cpp"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		28FAF4A8246AD48100FCCA78 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28FAF4C1246AD6F000FCCA78 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -42,6 +85,7 @@
 			isa = PBXGroup;
 			children = (
 				28FAF4AD246AD48100FCCA78 /* Algorithms */,
+				28FAF4C5246AD6F000FCCA78 /* Binary Search */,
 				28FAF4AC246AD48100FCCA78 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -50,6 +94,7 @@
 			isa = PBXGroup;
 			children = (
 				28FAF4AB246AD48100FCCA78 /* Algorithms */,
+				28FAF4C4246AD6F000FCCA78 /* Binary Search */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -57,9 +102,29 @@
 		28FAF4AD246AD48100FCCA78 /* Algorithms */ = {
 			isa = PBXGroup;
 			children = (
-				28FAF4AE246AD48100FCCA78 /* main.cpp */,
+				28FAF4AE246AD48100FCCA78 /* startingFile.cpp */,
 			);
 			path = Algorithms;
+			sourceTree = "<group>";
+		};
+		28FAF4C5246AD6F000FCCA78 /* Binary Search */ = {
+			isa = PBXGroup;
+			children = (
+				28FAF4D4246AD78B00FCCA78 /* 0.1 binarySearch.cpp */,
+				28FAF4CE246AD78B00FCCA78 /* 0.2 UpperLowerBound.cpp */,
+				28FAF4D5246AD78B00FCCA78 /* 0.3 STL UpperLowerBound.cpp */,
+				28FAF4CF246AD78B00FCCA78 /* 1 PivotElement.cpp */,
+				28FAF4D2246AD78B00FCCA78 /* 2 Search in a Rotated Array.cpp */,
+				28FAF4D3246AD78B00FCCA78 /* 3 Search in a Rotated Array w duplicates.cpp */,
+				28FAF4D0246AD78B00FCCA78 /* 4 Rotation Count in Rotated Sorted array.cpp */,
+				28FAF4D1246AD78B00FCCA78 /* 5 Count elements <= X in a rotated array.cpp */,
+				28FAF4D7246AD78B00FCCA78 /* 5.1 Square Root using BS.cpp */,
+				28FAF4CC246AD78B00FCCA78 /* 5.2 Exponentiation using BS.cpp */,
+				28FAF4D6246AD78B00FCCA78 /* 6 Bishu And Soldiers.cpp */,
+				28FAF4CB246AD78B00FCCA78 /* 7 Aggressive cows.cpp */,
+				28FAF4CD246AD78B00FCCA78 /* 8 BOOKS1 - Copying Books.cpp */,
+			);
+			path = "Binary Search";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -82,6 +147,23 @@
 			productReference = 28FAF4AB246AD48100FCCA78 /* Algorithms */;
 			productType = "com.apple.product-type.tool";
 		};
+		28FAF4C3246AD6F000FCCA78 /* Binary Search */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28FAF4C8246AD6F100FCCA78 /* Build configuration list for PBXNativeTarget "Binary Search" */;
+			buildPhases = (
+				28FAF4C0246AD6F000FCCA78 /* Sources */,
+				28FAF4C1246AD6F000FCCA78 /* Frameworks */,
+				28FAF4C2246AD6F000FCCA78 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Binary Search";
+			productName = "Binary Search";
+			productReference = 28FAF4C4246AD6F000FCCA78 /* Binary Search */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -92,6 +174,9 @@
 				ORGANIZATIONNAME = "Ravi Rathee";
 				TargetAttributes = {
 					28FAF4AA246AD48100FCCA78 = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+					28FAF4C3246AD6F000FCCA78 = {
 						CreatedOnToolsVersion = 11.4.1;
 					};
 				};
@@ -110,6 +195,7 @@
 			projectRoot = "";
 			targets = (
 				28FAF4AA246AD48100FCCA78 /* Algorithms */,
+				28FAF4C3246AD6F000FCCA78 /* Binary Search */,
 			);
 		};
 /* End PBXProject section */
@@ -119,7 +205,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				28FAF4AF246AD48100FCCA78 /* main.cpp in Sources */,
+				28FAF4AF246AD48100FCCA78 /* startingFile.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28FAF4C0246AD6F000FCCA78 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28FAF4DA246AD78B00FCCA78 /* 8 BOOKS1 - Copying Books.cpp in Sources */,
+				28FAF4E4246AD78B00FCCA78 /* 5.1 Square Root using BS.cpp in Sources */,
+				28FAF4DF246AD78B00FCCA78 /* 2 Search in a Rotated Array.cpp in Sources */,
+				28FAF4D9246AD78B00FCCA78 /* 5.2 Exponentiation using BS.cpp in Sources */,
+				28FAF4DE246AD78B00FCCA78 /* 5 Count elements <= X in a rotated array.cpp in Sources */,
+				28FAF4E2246AD78B00FCCA78 /* 0.3 STL UpperLowerBound.cpp in Sources */,
+				28FAF4E1246AD78B00FCCA78 /* 0.1 binarySearch.cpp in Sources */,
+				28FAF4E0246AD78B00FCCA78 /* 3 Search in a Rotated Array w duplicates.cpp in Sources */,
+				28FAF4E3246AD78B00FCCA78 /* 6 Bishu And Soldiers.cpp in Sources */,
+				28FAF4DB246AD78B00FCCA78 /* 0.2 UpperLowerBound.cpp in Sources */,
+				28FAF4DD246AD78B00FCCA78 /* 4 Rotation Count in Rotated Sorted array.cpp in Sources */,
+				28FAF4DC246AD78B00FCCA78 /* 1 PivotElement.cpp in Sources */,
+				28FAF4D8246AD78B00FCCA78 /* 7 Aggressive cows.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,6 +357,22 @@
 			};
 			name = Release;
 		};
+		28FAF4C9246AD6F100FCCA78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		28FAF4CA246AD6F100FCCA78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -268,6 +390,15 @@
 			buildConfigurations = (
 				28FAF4B3246AD48100FCCA78 /* Debug */,
 				28FAF4B4246AD48100FCCA78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		28FAF4C8246AD6F100FCCA78 /* Build configuration list for PBXNativeTarget "Binary Search" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28FAF4C9246AD6F100FCCA78 /* Debug */,
+				28FAF4CA246AD6F100FCCA78 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
