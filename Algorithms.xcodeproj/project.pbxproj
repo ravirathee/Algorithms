@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		28EDE795246BE457001DBA4F /* temp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 28EDE794246BE457001DBA4F /* temp.cpp */; };
+		28EDE797246DF63F001DBA4F /* 8.1 Allocate minimum number of pages .cpp in Sources */ = {isa = PBXBuildFile; fileRef = 28EDE796246DF63F001DBA4F /* 8.1 Allocate minimum number of pages .cpp */; };
+		28EDE799246E8204001DBA4F /* 9 The Painter's Partition Problem.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 28EDE798246E8204001DBA4F /* 9 The Painter's Partition Problem.cpp */; };
 		28FAF4AF246AD48100FCCA78 /* startingFile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 28FAF4AE246AD48100FCCA78 /* startingFile.cpp */; };
 		28FAF4D8246AD78B00FCCA78 /* 7 Aggressive cows.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 28FAF4CB246AD78B00FCCA78 /* 7 Aggressive cows.cpp */; };
 		28FAF4D9246AD78B00FCCA78 /* 5.2 Exponentiation using BS.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 28FAF4CC246AD78B00FCCA78 /* 5.2 Exponentiation using BS.cpp */; };
@@ -45,6 +48,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		28EDE794246BE457001DBA4F /* temp.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = temp.cpp; sourceTree = "<group>"; };
+		28EDE796246DF63F001DBA4F /* 8.1 Allocate minimum number of pages .cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "8.1 Allocate minimum number of pages .cpp"; sourceTree = "<group>"; };
+		28EDE798246E8204001DBA4F /* 9 The Painter's Partition Problem.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "9 The Painter's Partition Problem.cpp"; sourceTree = "<group>"; };
 		28FAF4AB246AD48100FCCA78 /* Algorithms */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Algorithms; sourceTree = BUILT_PRODUCTS_DIR; };
 		28FAF4AE246AD48100FCCA78 /* startingFile.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = startingFile.cpp; sourceTree = "<group>"; };
 		28FAF4C4246AD6F000FCCA78 /* Binary Search */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Binary Search"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -123,6 +129,9 @@
 				28FAF4D6246AD78B00FCCA78 /* 6 Bishu And Soldiers.cpp */,
 				28FAF4CB246AD78B00FCCA78 /* 7 Aggressive cows.cpp */,
 				28FAF4CD246AD78B00FCCA78 /* 8 BOOKS1 - Copying Books.cpp */,
+				28EDE796246DF63F001DBA4F /* 8.1 Allocate minimum number of pages .cpp */,
+				28EDE798246E8204001DBA4F /* 9 The Painter's Partition Problem.cpp */,
+				28EDE794246BE457001DBA4F /* temp.cpp */,
 			);
 			path = "Binary Search";
 			sourceTree = "<group>";
@@ -216,12 +225,15 @@
 				28FAF4DA246AD78B00FCCA78 /* 8 BOOKS1 - Copying Books.cpp in Sources */,
 				28FAF4E4246AD78B00FCCA78 /* 5.1 Square Root using BS.cpp in Sources */,
 				28FAF4DF246AD78B00FCCA78 /* 2 Search in a Rotated Array.cpp in Sources */,
+				28EDE797246DF63F001DBA4F /* 8.1 Allocate minimum number of pages .cpp in Sources */,
 				28FAF4D9246AD78B00FCCA78 /* 5.2 Exponentiation using BS.cpp in Sources */,
 				28FAF4DE246AD78B00FCCA78 /* 5 Count elements <= X in a rotated array.cpp in Sources */,
 				28FAF4E2246AD78B00FCCA78 /* 0.3 STL UpperLowerBound.cpp in Sources */,
 				28FAF4E1246AD78B00FCCA78 /* 0.1 binarySearch.cpp in Sources */,
+				28EDE799246E8204001DBA4F /* 9 The Painter's Partition Problem.cpp in Sources */,
 				28FAF4E0246AD78B00FCCA78 /* 3 Search in a Rotated Array w duplicates.cpp in Sources */,
 				28FAF4E3246AD78B00FCCA78 /* 6 Bishu And Soldiers.cpp in Sources */,
+				28EDE795246BE457001DBA4F /* temp.cpp in Sources */,
 				28FAF4DB246AD78B00FCCA78 /* 0.2 UpperLowerBound.cpp in Sources */,
 				28FAF4DD246AD78B00FCCA78 /* 4 Rotation Count in Rotated Sorted array.cpp in Sources */,
 				28FAF4DC246AD78B00FCCA78 /* 1 PivotElement.cpp in Sources */,

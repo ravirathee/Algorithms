@@ -15,7 +15,7 @@
 //
 ////recursive
 //int binarySearch2(int a[],int l,int r,int x){
-//    
+//
 //    if(r>=l){
 //        int mid = (l+r)/2;
 //        if( a[mid]==x ) return mid;
@@ -29,9 +29,9 @@
 //    int n; cin>>n;
 //    int a[n]; for(int i=0 ; i<n; i++) cin>>a[i];
 //    int x; cin>>x;
-//    
+//
 //    int pos = binarySearch1(a,0,n-1,x);
-//    
+//
 //    if(pos == -1) cout<<"Element not found";
 //    else cout<<"Element found at pos : "<<pos;
 //}

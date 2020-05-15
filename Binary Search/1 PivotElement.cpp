@@ -4,8 +4,11 @@
 // read theory and logic from here
 // http://theoryofprogramming.com/2017/12/16/find-pivot-element-sorted-rotated-array/
 // take hint how to implement here
+// minimum element
 // https://www.geeksforgeeks.org/find-minimum-element-in-a-sorted-and-rotated-array/
 //
+//maximum element
+// https://www.geeksforgeeks.org/maximum-element-in-a-sorted-and-rotated-array/?ref=rp
 // implemented this code on my own
 // */
 //

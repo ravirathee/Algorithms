@@ -2,7 +2,7 @@
 // https://practice.geeksforgeeks.org/problems/search-in-a-rotated-array/0
 //
 // study here
-// https://www.geeksforgeeks.org/search-an-element-in-a-sorted-and-pivoted-array/
+// https://www.geeksforgeeks.org/search-an-element-in-a-sorted-and-rotated-array-with-duplicates/
 // */
 //#include<bits/stdc++.h>
 //using namespace std;
