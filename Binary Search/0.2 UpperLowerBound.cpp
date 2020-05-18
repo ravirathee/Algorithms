@@ -30,6 +30,8 @@
 //}
 //
 ///*
+//[LB, UB) - LB is included but UB is not.
+// 
 //Lower Bound is a function which should return
 //CASE 1 : position of element, if only 1 element present in the array
 //CASE 2 : position of starting element, if multiple elements present in the array
@@ -77,6 +79,8 @@
 //
 //
 ///*
+//[LB, UB) - LB is included but UB is not.
+//
 //Upper Bound is a function which should return
 //CASE 1 : position of next element, if only 1 element present in the array
 //CASE 2 : position of next element to ending element, if multiple elements present in the array
