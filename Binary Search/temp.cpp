@@ -1,6 +1,14 @@
 #include<bits/stdc++.h>
 using namespace std;
 
+void hello(int a[], int n){
+    
+    for(int i=2 ; i<=1 ; i++){
+        cout<<a[i];
+    }
+    
+}
+
 int minElement(int a[],int l,int r,int n){
     int mid, pos = -1;
     while(l<r){
@@ -26,7 +34,8 @@ void test_case(){
     //cout<<lowerBound(a,l,r,n,x);
     //cout<<upperBound(a,l,r,n,x);
     //cout<<"\n";
-    cout<<minElement(a,l,r,n)<<"\n";
+    //cout<<minElement(a,l,r,n)<<"\n";
+    hello(a,n);
 }
 
 int main(){
