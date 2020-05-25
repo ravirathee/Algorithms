@@ -30,7 +30,7 @@
 //    int a[n]; for(int i=0 ; i<n; i++) cin>>a[i];
 //    int x; cin>>x;
 //
-//    int pos = binarySearch1(a,0,n-1,x);
+//    int pos = binarySearch2(a,0,n-1,x);
 //
 //    if(pos == -1) cout<<"Element not found";
 //    else cout<<"Element found at pos : "<<pos;
