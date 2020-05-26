@@ -8,13 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		2866C3FC247C421B00243C28 /* 1 Find the element that appears once in sorted array.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2866C3FB247C421B00243C28 /* 1 Find the element that appears once in sorted array.cpp */; };
+		2866C3FE247D497C00243C28 /* 7 Find peak element in bitonic array.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2866C3FD247D497C00243C28 /* 7 Find peak element in bitonic array.cpp */; };
+		2866C400247D49AE00243C28 /* 8 Find any peak element in an array.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2866C3FF247D49AE00243C28 /* 8 Find any peak element in an array.cpp */; };
 		28EDE795246BE457001DBA4F /* temp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 28EDE794246BE457001DBA4F /* temp.cpp */; };
-		28EDE797246DF63F001DBA4F /* 9.1 Allocate minimum number of pages .cpp in Sources */ = {isa = PBXBuildFile; fileRef = 28EDE796246DF63F001DBA4F /* 9.1 Allocate minimum number of pages .cpp */; };
-		28EDE799246E8204001DBA4F /* 10 The Painter's Partition Problem.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 28EDE798246E8204001DBA4F /* 10 The Painter's Partition Problem.cpp */; };
+		28EDE797246DF63F001DBA4F /* 11.1 Allocate minimum number of pages .cpp in Sources */ = {isa = PBXBuildFile; fileRef = 28EDE796246DF63F001DBA4F /* 11.1 Allocate minimum number of pages .cpp */; };
+		28EDE799246E8204001DBA4F /* 12 The Painter's Partition Problem.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 28EDE798246E8204001DBA4F /* 12 The Painter's Partition Problem.cpp */; };
 		28FAF4AF246AD48100FCCA78 /* startingFile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 28FAF4AE246AD48100FCCA78 /* startingFile.cpp */; };
-		28FAF4D8246AD78B00FCCA78 /* 8 Aggressive cows.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 28FAF4CB246AD78B00FCCA78 /* 8 Aggressive cows.cpp */; };
-		28FAF4D9246AD78B00FCCA78 /* 6.2 Exponentiation using BS.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 28FAF4CC246AD78B00FCCA78 /* 6.2 Exponentiation using BS.cpp */; };
-		28FAF4DA246AD78B00FCCA78 /* 9 BOOKS1 - Copying Books.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 28FAF4CD246AD78B00FCCA78 /* 9 BOOKS1 - Copying Books.cpp */; };
+		28FAF4D8246AD78B00FCCA78 /* 10 Aggressive cows.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 28FAF4CB246AD78B00FCCA78 /* 10 Aggressive cows.cpp */; };
+		28FAF4D9246AD78B00FCCA78 /* 8.2 Exponentiation using BS.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 28FAF4CC246AD78B00FCCA78 /* 8.2 Exponentiation using BS.cpp */; };
+		28FAF4DA246AD78B00FCCA78 /* 11 BOOKS1 - Copying Books.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 28FAF4CD246AD78B00FCCA78 /* 11 BOOKS1 - Copying Books.cpp */; };
 		28FAF4DB246AD78B00FCCA78 /* 0.2 UpperLowerBound.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 28FAF4CE246AD78B00FCCA78 /* 0.2 UpperLowerBound.cpp */; };
 		28FAF4DC246AD78B00FCCA78 /* 2 PivotElement.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 28FAF4CF246AD78B00FCCA78 /* 2 PivotElement.cpp */; };
 		28FAF4DD246AD78B00FCCA78 /* 5 Rotation Count in Rotated Sorted array.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 28FAF4D0246AD78B00FCCA78 /* 5 Rotation Count in Rotated Sorted array.cpp */; };
@@ -23,8 +25,8 @@
 		28FAF4E0246AD78B00FCCA78 /* 4 Search in a Rotated Array w duplicates.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 28FAF4D3246AD78B00FCCA78 /* 4 Search in a Rotated Array w duplicates.cpp */; };
 		28FAF4E1246AD78B00FCCA78 /* 0.1 binarySearch.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 28FAF4D4246AD78B00FCCA78 /* 0.1 binarySearch.cpp */; };
 		28FAF4E2246AD78B00FCCA78 /* 0.3 STL UpperLowerBound.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 28FAF4D5246AD78B00FCCA78 /* 0.3 STL UpperLowerBound.cpp */; };
-		28FAF4E3246AD78B00FCCA78 /* 7 Bishu And Soldiers.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 28FAF4D6246AD78B00FCCA78 /* 7 Bishu And Soldiers.cpp */; };
-		28FAF4E4246AD78B00FCCA78 /* 6.1 Square Root using BS.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 28FAF4D7246AD78B00FCCA78 /* 6.1 Square Root using BS.cpp */; };
+		28FAF4E3246AD78B00FCCA78 /* 9 Bishu And Soldiers.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 28FAF4D6246AD78B00FCCA78 /* 9 Bishu And Soldiers.cpp */; };
+		28FAF4E4246AD78B00FCCA78 /* 8.1 Square Root using BS.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 28FAF4D7246AD78B00FCCA78 /* 8.1 Square Root using BS.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -50,15 +52,17 @@
 
 /* Begin PBXFileReference section */
 		2866C3FB247C421B00243C28 /* 1 Find the element that appears once in sorted array.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "1 Find the element that appears once in sorted array.cpp"; sourceTree = "<group>"; };
+		2866C3FD247D497C00243C28 /* 7 Find peak element in bitonic array.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "7 Find peak element in bitonic array.cpp"; sourceTree = "<group>"; };
+		2866C3FF247D49AE00243C28 /* 8 Find any peak element in an array.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "8 Find any peak element in an array.cpp"; sourceTree = "<group>"; };
 		28EDE794246BE457001DBA4F /* temp.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = temp.cpp; sourceTree = "<group>"; };
-		28EDE796246DF63F001DBA4F /* 9.1 Allocate minimum number of pages .cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "9.1 Allocate minimum number of pages .cpp"; sourceTree = "<group>"; };
-		28EDE798246E8204001DBA4F /* 10 The Painter's Partition Problem.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "10 The Painter's Partition Problem.cpp"; sourceTree = "<group>"; };
+		28EDE796246DF63F001DBA4F /* 11.1 Allocate minimum number of pages .cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "11.1 Allocate minimum number of pages .cpp"; sourceTree = "<group>"; };
+		28EDE798246E8204001DBA4F /* 12 The Painter's Partition Problem.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "12 The Painter's Partition Problem.cpp"; sourceTree = "<group>"; };
 		28FAF4AB246AD48100FCCA78 /* Algorithms */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Algorithms; sourceTree = BUILT_PRODUCTS_DIR; };
 		28FAF4AE246AD48100FCCA78 /* startingFile.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = startingFile.cpp; sourceTree = "<group>"; };
 		28FAF4C4246AD6F000FCCA78 /* Binary Search */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Binary Search"; sourceTree = BUILT_PRODUCTS_DIR; };
-		28FAF4CB246AD78B00FCCA78 /* 8 Aggressive cows.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "8 Aggressive cows.cpp"; sourceTree = "<group>"; };
-		28FAF4CC246AD78B00FCCA78 /* 6.2 Exponentiation using BS.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "6.2 Exponentiation using BS.cpp"; sourceTree = "<group>"; };
-		28FAF4CD246AD78B00FCCA78 /* 9 BOOKS1 - Copying Books.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "9 BOOKS1 - Copying Books.cpp"; sourceTree = "<group>"; };
+		28FAF4CB246AD78B00FCCA78 /* 10 Aggressive cows.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "10 Aggressive cows.cpp"; sourceTree = "<group>"; };
+		28FAF4CC246AD78B00FCCA78 /* 8.2 Exponentiation using BS.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "8.2 Exponentiation using BS.cpp"; sourceTree = "<group>"; };
+		28FAF4CD246AD78B00FCCA78 /* 11 BOOKS1 - Copying Books.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "11 BOOKS1 - Copying Books.cpp"; sourceTree = "<group>"; };
 		28FAF4CE246AD78B00FCCA78 /* 0.2 UpperLowerBound.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "0.2 UpperLowerBound.cpp"; sourceTree = "<group>"; };
 		28FAF4CF246AD78B00FCCA78 /* 2 PivotElement.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "2 PivotElement.cpp"; sourceTree = "<group>"; };
 		28FAF4D0246AD78B00FCCA78 /* 5 Rotation Count in Rotated Sorted array.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "5 Rotation Count in Rotated Sorted array.cpp"; sourceTree = "<group>"; };
@@ -67,8 +71,8 @@
 		28FAF4D3246AD78B00FCCA78 /* 4 Search in a Rotated Array w duplicates.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "4 Search in a Rotated Array w duplicates.cpp"; sourceTree = "<group>"; };
 		28FAF4D4246AD78B00FCCA78 /* 0.1 binarySearch.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "0.1 binarySearch.cpp"; sourceTree = "<group>"; };
 		28FAF4D5246AD78B00FCCA78 /* 0.3 STL UpperLowerBound.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "0.3 STL UpperLowerBound.cpp"; sourceTree = "<group>"; };
-		28FAF4D6246AD78B00FCCA78 /* 7 Bishu And Soldiers.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "7 Bishu And Soldiers.cpp"; sourceTree = "<group>"; };
-		28FAF4D7246AD78B00FCCA78 /* 6.1 Square Root using BS.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "6.1 Square Root using BS.cpp"; sourceTree = "<group>"; };
+		28FAF4D6246AD78B00FCCA78 /* 9 Bishu And Soldiers.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "9 Bishu And Soldiers.cpp"; sourceTree = "<group>"; };
+		28FAF4D7246AD78B00FCCA78 /* 8.1 Square Root using BS.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "8.1 Square Root using BS.cpp"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,13 +131,15 @@
 				28FAF4D3246AD78B00FCCA78 /* 4 Search in a Rotated Array w duplicates.cpp */,
 				28FAF4D0246AD78B00FCCA78 /* 5 Rotation Count in Rotated Sorted array.cpp */,
 				28FAF4D1246AD78B00FCCA78 /* 6 Count elements <= X in a rotated array.cpp */,
-				28FAF4D7246AD78B00FCCA78 /* 6.1 Square Root using BS.cpp */,
-				28FAF4CC246AD78B00FCCA78 /* 6.2 Exponentiation using BS.cpp */,
-				28FAF4D6246AD78B00FCCA78 /* 7 Bishu And Soldiers.cpp */,
-				28FAF4CB246AD78B00FCCA78 /* 8 Aggressive cows.cpp */,
-				28FAF4CD246AD78B00FCCA78 /* 9 BOOKS1 - Copying Books.cpp */,
-				28EDE796246DF63F001DBA4F /* 9.1 Allocate minimum number of pages .cpp */,
-				28EDE798246E8204001DBA4F /* 10 The Painter's Partition Problem.cpp */,
+				2866C3FD247D497C00243C28 /* 7 Find peak element in bitonic array.cpp */,
+				2866C3FF247D49AE00243C28 /* 8 Find any peak element in an array.cpp */,
+				28FAF4D7246AD78B00FCCA78 /* 8.1 Square Root using BS.cpp */,
+				28FAF4CC246AD78B00FCCA78 /* 8.2 Exponentiation using BS.cpp */,
+				28FAF4D6246AD78B00FCCA78 /* 9 Bishu And Soldiers.cpp */,
+				28FAF4CB246AD78B00FCCA78 /* 10 Aggressive cows.cpp */,
+				28FAF4CD246AD78B00FCCA78 /* 11 BOOKS1 - Copying Books.cpp */,
+				28EDE796246DF63F001DBA4F /* 11.1 Allocate minimum number of pages .cpp */,
+				28EDE798246E8204001DBA4F /* 12 The Painter's Partition Problem.cpp */,
 				28EDE794246BE457001DBA4F /* temp.cpp */,
 			);
 			path = "Binary Search";
@@ -225,23 +231,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				28FAF4DA246AD78B00FCCA78 /* 9 BOOKS1 - Copying Books.cpp in Sources */,
-				28FAF4E4246AD78B00FCCA78 /* 6.1 Square Root using BS.cpp in Sources */,
+				28FAF4DA246AD78B00FCCA78 /* 11 BOOKS1 - Copying Books.cpp in Sources */,
+				28FAF4E4246AD78B00FCCA78 /* 8.1 Square Root using BS.cpp in Sources */,
 				28FAF4DF246AD78B00FCCA78 /* 3 Search in a Rotated Array.cpp in Sources */,
-				28EDE797246DF63F001DBA4F /* 9.1 Allocate minimum number of pages .cpp in Sources */,
-				28FAF4D9246AD78B00FCCA78 /* 6.2 Exponentiation using BS.cpp in Sources */,
+				28EDE797246DF63F001DBA4F /* 11.1 Allocate minimum number of pages .cpp in Sources */,
+				28FAF4D9246AD78B00FCCA78 /* 8.2 Exponentiation using BS.cpp in Sources */,
+				2866C400247D49AE00243C28 /* 8 Find any peak element in an array.cpp in Sources */,
 				2866C3FC247C421B00243C28 /* 1 Find the element that appears once in sorted array.cpp in Sources */,
 				28FAF4DE246AD78B00FCCA78 /* 6 Count elements <= X in a rotated array.cpp in Sources */,
 				28FAF4E2246AD78B00FCCA78 /* 0.3 STL UpperLowerBound.cpp in Sources */,
 				28FAF4E1246AD78B00FCCA78 /* 0.1 binarySearch.cpp in Sources */,
-				28EDE799246E8204001DBA4F /* 10 The Painter's Partition Problem.cpp in Sources */,
+				28EDE799246E8204001DBA4F /* 12 The Painter's Partition Problem.cpp in Sources */,
 				28FAF4E0246AD78B00FCCA78 /* 4 Search in a Rotated Array w duplicates.cpp in Sources */,
-				28FAF4E3246AD78B00FCCA78 /* 7 Bishu And Soldiers.cpp in Sources */,
+				28FAF4E3246AD78B00FCCA78 /* 9 Bishu And Soldiers.cpp in Sources */,
 				28EDE795246BE457001DBA4F /* temp.cpp in Sources */,
 				28FAF4DB246AD78B00FCCA78 /* 0.2 UpperLowerBound.cpp in Sources */,
+				2866C3FE247D497C00243C28 /* 7 Find peak element in bitonic array.cpp in Sources */,
 				28FAF4DD246AD78B00FCCA78 /* 5 Rotation Count in Rotated Sorted array.cpp in Sources */,
 				28FAF4DC246AD78B00FCCA78 /* 2 PivotElement.cpp in Sources */,
-				28FAF4D8246AD78B00FCCA78 /* 8 Aggressive cows.cpp in Sources */,
+				28FAF4D8246AD78B00FCCA78 /* 10 Aggressive cows.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
