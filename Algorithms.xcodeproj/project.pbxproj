@@ -10,6 +10,8 @@
 		2866C3FC247C421B00243C28 /* 1 Find the element that appears once in sorted array.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2866C3FB247C421B00243C28 /* 1 Find the element that appears once in sorted array.cpp */; };
 		2866C3FE247D497C00243C28 /* 7 Find peak element in bitonic array.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2866C3FD247D497C00243C28 /* 7 Find peak element in bitonic array.cpp */; };
 		2866C400247D49AE00243C28 /* 8 Find any peak element in an array.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2866C3FF247D49AE00243C28 /* 8 Find any peak element in an array.cpp */; };
+		28ABEC2B247EA5E50002539A /* 0.1 MergeSort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 28ABEC2A247EA5E50002539A /* 0.1 MergeSort.cpp */; };
+		28ABEC36248006F90002539A /* 0.1 QuickSort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 28ABEC35248006F90002539A /* 0.1 QuickSort.cpp */; };
 		28EDE795246BE457001DBA4F /* temp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 28EDE794246BE457001DBA4F /* temp.cpp */; };
 		28EDE797246DF63F001DBA4F /* 11.1 Allocate minimum number of pages .cpp in Sources */ = {isa = PBXBuildFile; fileRef = 28EDE796246DF63F001DBA4F /* 11.1 Allocate minimum number of pages .cpp */; };
 		28EDE799246E8204001DBA4F /* 12 The Painter's Partition Problem.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 28EDE798246E8204001DBA4F /* 12 The Painter's Partition Problem.cpp */; };
@@ -30,6 +32,24 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		28ABEC26247EA5E40002539A /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		28ABEC31248006F90002539A /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		28FAF4A9246AD48100FCCA78 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -54,6 +74,10 @@
 		2866C3FB247C421B00243C28 /* 1 Find the element that appears once in sorted array.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "1 Find the element that appears once in sorted array.cpp"; sourceTree = "<group>"; };
 		2866C3FD247D497C00243C28 /* 7 Find peak element in bitonic array.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "7 Find peak element in bitonic array.cpp"; sourceTree = "<group>"; };
 		2866C3FF247D49AE00243C28 /* 8 Find any peak element in an array.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "8 Find any peak element in an array.cpp"; sourceTree = "<group>"; };
+		28ABEC28247EA5E40002539A /* MergeSort */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MergeSort; sourceTree = BUILT_PRODUCTS_DIR; };
+		28ABEC2A247EA5E50002539A /* 0.1 MergeSort.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "0.1 MergeSort.cpp"; sourceTree = "<group>"; };
+		28ABEC33248006F90002539A /* QuickSort */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = QuickSort; sourceTree = BUILT_PRODUCTS_DIR; };
+		28ABEC35248006F90002539A /* 0.1 QuickSort.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "0.1 QuickSort.cpp"; sourceTree = "<group>"; };
 		28EDE794246BE457001DBA4F /* temp.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = temp.cpp; sourceTree = "<group>"; };
 		28EDE796246DF63F001DBA4F /* 11.1 Allocate minimum number of pages .cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "11.1 Allocate minimum number of pages .cpp"; sourceTree = "<group>"; };
 		28EDE798246E8204001DBA4F /* 12 The Painter's Partition Problem.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "12 The Painter's Partition Problem.cpp"; sourceTree = "<group>"; };
@@ -76,6 +100,20 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		28ABEC25247EA5E40002539A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28ABEC30248006F90002539A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		28FAF4A8246AD48100FCCA78 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -93,11 +131,29 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		28ABEC29247EA5E50002539A /* MergeSort */ = {
+			isa = PBXGroup;
+			children = (
+				28ABEC2A247EA5E50002539A /* 0.1 MergeSort.cpp */,
+			);
+			path = MergeSort;
+			sourceTree = "<group>";
+		};
+		28ABEC34248006F90002539A /* QuickSort */ = {
+			isa = PBXGroup;
+			children = (
+				28ABEC35248006F90002539A /* 0.1 QuickSort.cpp */,
+			);
+			path = QuickSort;
+			sourceTree = "<group>";
+		};
 		28FAF4A2246AD48000FCCA78 = {
 			isa = PBXGroup;
 			children = (
 				28FAF4AD246AD48100FCCA78 /* Algorithms */,
 				28FAF4C5246AD6F000FCCA78 /* Binary Search */,
+				28ABEC29247EA5E50002539A /* MergeSort */,
+				28ABEC34248006F90002539A /* QuickSort */,
 				28FAF4AC246AD48100FCCA78 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -107,6 +163,8 @@
 			children = (
 				28FAF4AB246AD48100FCCA78 /* Algorithms */,
 				28FAF4C4246AD6F000FCCA78 /* Binary Search */,
+				28ABEC28247EA5E40002539A /* MergeSort */,
+				28ABEC33248006F90002539A /* QuickSort */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -148,6 +206,40 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		28ABEC27247EA5E40002539A /* MergeSort */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28ABEC2E247EA5E50002539A /* Build configuration list for PBXNativeTarget "MergeSort" */;
+			buildPhases = (
+				28ABEC24247EA5E40002539A /* Sources */,
+				28ABEC25247EA5E40002539A /* Frameworks */,
+				28ABEC26247EA5E40002539A /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MergeSort;
+			productName = MergeSort;
+			productReference = 28ABEC28247EA5E40002539A /* MergeSort */;
+			productType = "com.apple.product-type.tool";
+		};
+		28ABEC32248006F90002539A /* QuickSort */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28ABEC37248006F90002539A /* Build configuration list for PBXNativeTarget "QuickSort" */;
+			buildPhases = (
+				28ABEC2F248006F90002539A /* Sources */,
+				28ABEC30248006F90002539A /* Frameworks */,
+				28ABEC31248006F90002539A /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QuickSort;
+			productName = QuickSort;
+			productReference = 28ABEC33248006F90002539A /* QuickSort */;
+			productType = "com.apple.product-type.tool";
+		};
 		28FAF4AA246AD48100FCCA78 /* Algorithms */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 28FAF4B2246AD48100FCCA78 /* Build configuration list for PBXNativeTarget "Algorithms" */;
@@ -191,6 +283,12 @@
 				LastUpgradeCheck = 1140;
 				ORGANIZATIONNAME = "Ravi Rathee";
 				TargetAttributes = {
+					28ABEC27247EA5E40002539A = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+					28ABEC32248006F90002539A = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
 					28FAF4AA246AD48100FCCA78 = {
 						CreatedOnToolsVersion = 11.4.1;
 					};
@@ -214,11 +312,29 @@
 			targets = (
 				28FAF4AA246AD48100FCCA78 /* Algorithms */,
 				28FAF4C3246AD6F000FCCA78 /* Binary Search */,
+				28ABEC27247EA5E40002539A /* MergeSort */,
+				28ABEC32248006F90002539A /* QuickSort */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		28ABEC24247EA5E40002539A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28ABEC2B247EA5E50002539A /* 0.1 MergeSort.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28ABEC2F248006F90002539A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28ABEC36248006F90002539A /* 0.1 QuickSort.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		28FAF4A7246AD48100FCCA78 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -256,6 +372,38 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		28ABEC2C247EA5E50002539A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		28ABEC2D247EA5E50002539A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		28ABEC38248006F90002539A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		28ABEC39248006F90002539A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		28FAF4B0246AD48100FCCA78 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -400,6 +548,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		28ABEC2E247EA5E50002539A /* Build configuration list for PBXNativeTarget "MergeSort" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28ABEC2C247EA5E50002539A /* Debug */,
+				28ABEC2D247EA5E50002539A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		28ABEC37248006F90002539A /* Build configuration list for PBXNativeTarget "QuickSort" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28ABEC38248006F90002539A /* Debug */,
+				28ABEC39248006F90002539A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		28FAF4A6246AD48000FCCA78 /* Build configuration list for PBXProject "Algorithms" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
