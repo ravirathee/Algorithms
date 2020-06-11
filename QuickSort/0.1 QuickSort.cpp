@@ -31,6 +31,23 @@ int partition_last(int a[], int l, int r){
     return i+1;
 }
 
+//taking random element as pivot
+//returns position of that pivot after placing it at its correct position
+int partition_random(int a[], int l, int r){
+    int pivot = random();
+    int i = l-1;
+    for(int j = i + 1 ; j<=r-1 ; j++){
+        if( a[j] < pivot ){
+            i++;
+            swap(a[i],a[j]);
+        }
+    }
+    swap(a[r],a[i+1]);
+    return i+1;
+}
+
+
+
 void quickSort(int a[], int l, int r){
     if(l<r){
         //int pivot_pos = partition_first(a,l,r);
