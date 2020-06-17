@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		283CA9E22492356800EDD10E /* Largest Common Subsequence.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 283CA9E12492356800EDD10E /* Largest Common Subsequence.cpp */; };
 		2866C3FC247C421B00243C28 /* 1 Find the element that appears once in sorted array.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2866C3FB247C421B00243C28 /* 1 Find the element that appears once in sorted array.cpp */; };
 		2866C3FE247D497C00243C28 /* 7 Find peak element in bitonic array.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2866C3FD247D497C00243C28 /* 7 Find peak element in bitonic array.cpp */; };
 		2866C400247D49AE00243C28 /* 8 Find any peak element in an array.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2866C3FF247D49AE00243C28 /* 8 Find any peak element in an array.cpp */; };
@@ -32,6 +33,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		283CA9DD2492356800EDD10E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		28ABEC26247EA5E40002539A /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -71,6 +81,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		283CA9DF2492356800EDD10E /* Dynamic Programming */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Dynamic Programming"; sourceTree = BUILT_PRODUCTS_DIR; };
+		283CA9E12492356800EDD10E /* Largest Common Subsequence.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Largest Common Subsequence.cpp"; sourceTree = "<group>"; };
 		2866C3FB247C421B00243C28 /* 1 Find the element that appears once in sorted array.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "1 Find the element that appears once in sorted array.cpp"; sourceTree = "<group>"; };
 		2866C3FD247D497C00243C28 /* 7 Find peak element in bitonic array.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "7 Find peak element in bitonic array.cpp"; sourceTree = "<group>"; };
 		2866C3FF247D49AE00243C28 /* 8 Find any peak element in an array.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "8 Find any peak element in an array.cpp"; sourceTree = "<group>"; };
@@ -100,6 +112,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		283CA9DC2492356800EDD10E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		28ABEC25247EA5E40002539A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -131,6 +150,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		283CA9E02492356800EDD10E /* Dynamic Programming */ = {
+			isa = PBXGroup;
+			children = (
+				283CA9E12492356800EDD10E /* Largest Common Subsequence.cpp */,
+			);
+			path = "Dynamic Programming";
+			sourceTree = "<group>";
+		};
 		28ABEC29247EA5E50002539A /* MergeSort */ = {
 			isa = PBXGroup;
 			children = (
@@ -154,6 +181,7 @@
 				28FAF4C5246AD6F000FCCA78 /* Binary Search */,
 				28ABEC29247EA5E50002539A /* MergeSort */,
 				28ABEC34248006F90002539A /* QuickSort */,
+				283CA9E02492356800EDD10E /* Dynamic Programming */,
 				28FAF4AC246AD48100FCCA78 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -165,6 +193,7 @@
 				28FAF4C4246AD6F000FCCA78 /* Binary Search */,
 				28ABEC28247EA5E40002539A /* MergeSort */,
 				28ABEC33248006F90002539A /* QuickSort */,
+				283CA9DF2492356800EDD10E /* Dynamic Programming */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -206,6 +235,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		283CA9DE2492356800EDD10E /* Dynamic Programming */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 283CA9E52492356800EDD10E /* Build configuration list for PBXNativeTarget "Dynamic Programming" */;
+			buildPhases = (
+				283CA9DB2492356800EDD10E /* Sources */,
+				283CA9DC2492356800EDD10E /* Frameworks */,
+				283CA9DD2492356800EDD10E /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Dynamic Programming";
+			productName = "Dynamic Programming";
+			productReference = 283CA9DF2492356800EDD10E /* Dynamic Programming */;
+			productType = "com.apple.product-type.tool";
+		};
 		28ABEC27247EA5E40002539A /* MergeSort */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 28ABEC2E247EA5E50002539A /* Build configuration list for PBXNativeTarget "MergeSort" */;
@@ -283,6 +329,9 @@
 				LastUpgradeCheck = 1140;
 				ORGANIZATIONNAME = "Ravi Rathee";
 				TargetAttributes = {
+					283CA9DE2492356800EDD10E = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
 					28ABEC27247EA5E40002539A = {
 						CreatedOnToolsVersion = 11.4.1;
 					};
@@ -314,11 +363,20 @@
 				28FAF4C3246AD6F000FCCA78 /* Binary Search */,
 				28ABEC27247EA5E40002539A /* MergeSort */,
 				28ABEC32248006F90002539A /* QuickSort */,
+				283CA9DE2492356800EDD10E /* Dynamic Programming */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		283CA9DB2492356800EDD10E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				283CA9E22492356800EDD10E /* Largest Common Subsequence.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		28ABEC24247EA5E40002539A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -372,6 +430,22 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		283CA9E32492356800EDD10E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		283CA9E42492356800EDD10E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		28ABEC2C247EA5E50002539A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -548,6 +622,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		283CA9E52492356800EDD10E /* Build configuration list for PBXNativeTarget "Dynamic Programming" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				283CA9E32492356800EDD10E /* Debug */,
+				283CA9E42492356800EDD10E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		28ABEC2E247EA5E50002539A /* Build configuration list for PBXNativeTarget "MergeSort" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
